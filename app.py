@@ -13,7 +13,7 @@ import xgboost as xgb
 import ta
 
 # Streamlit app
-st.title('Stock Price Prediction')
+st.title('Currency Price Prediction')
 
 # User inputs
 ticker = st.text_input('Enter stock ticker (e.g., AAPL, GOOG, USDINR=X):', 'USDINR=X')
